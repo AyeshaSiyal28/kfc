@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kfc website</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <!------------------------------------- NavBar begin ------------------------------------>
+    <nav>
+        <div class="nav_bar">
+            <div class="menu" onclick="sideToggle()">
+                <img src="./media/menu.png">
+            </div>
+            <img src="./media/logo.png">
+            <button class="login">DELIVERY</button>
+            <span>PICKUP</span>
+        </div>
+        <div class="log">
+            <a href="login.html"> <input type="button" value="login"></a>
+        </div>
+    </nav>
+    <!------------------------------------- NavBar end ------------------------------------>
+    <!------------------------------------- side navbar begin ------------------------------------>
+    <div id="sideNav" class="sidebar">
+    <div class="kfc_menu">
+        <div class="log">
+            <input type="submit" value="login">
+        </div>
+        <div class="mode">
+       <input type="checkbox" id="darkmode-toggle">
+       <label for="darkmode-toggle"></label>
+        </div>
+        <hr>
+        <div class="location">
+            <ul>
+                <li> <a href="#"><img src="./media/menu.1.jpg" alt="">Store Locator</a></li>
+                <li><a href="#"><img src="./media/menu.2.jpg" alt="">Track Order</a></li>
+                <li> <a href="#"><img src="./media/menu3.jpg" alt="">Explore Menu</a></li>
+            </ul>
+            <hr>
+            <ul>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">FeedBack</a></li>
+                <li><a href="#">Terms & Conditions</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Contach Us</a></li>
+                <li><a href="#">Mitao Book</a></li>
+                <li><a href="#">Mitao Book - Scholership</a></li>
+                <li><a href="#">Careers</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="fade" onclick="sideToggle()"></div>
+</div>
+    <!------------------------------------- side NavBar end ------------------------------------>
+
+    <!------------------------------------- Slider begin ------------------------------------>
+    <div class="kfc">
+        <div class="prev" onclick="slideBack()">
+            <img src="./media/back.png" alt="">
+        </div>
+        <img src="./media/kfc.jpg" alt="" id="slide">
+        <div class="next" onclick="slideForward()">
+            <img src="./media/next.png" alt="">
+        </div>
+    </div>
+    <!------------------------------------- Slider end ------------------------------------>
+    <!------------------------------------- Explore menu begin ------------------------------------>
+    <div class="container">
+        <button class="order">REORDER</button>
+        <h2 class="item">
+            EXPLORE MENU
+        </h2>
+
+        <div class="cards">
+            <div class="card">
+                <img src="./media/1st.png" alt="">
+            </div>
+            <div class="card">
+                <img src="./media/2nd.png" alt="">
+            </div>
+            <div class="card">
+                <img src="./media/3rd.png" alt="">
+            </div>
+            <div class="card">
+                <img src="./media/4rth.png" alt="">
+            </div>
+            <div class="card">
+                <img src="./media/fifth.png" alt="">
+            </div>
+        </div>
+        <!------------------------------------- Explore menu end ------------------------------------>
+        <!------------------------------------- Best seller begin ------------------------------------>
+        <h2 class="item">BEST SELLERS</h2>
+        <div class="boxes">
+            <div class="box">
+                <div class="reds">
+                    <div class="red">
+                    </div>
+                    <div class="red">
+                    </div>
+                    <div class="red">
+                    </div>
+                </div>
+                <h2>Krunch Burger</h2>
+                <div class="price">
+                    <h5>Rs 270</h5>
+                </div>
+                <img src="./media/deal1.png" alt="">
+            </div>
+            <div class="box">
+                <div class="reds">
+                    <div class="red">
+                    </div>
+                    <div class="red">
+                    </div>
+                    <div class="red">
+                    </div>
+                </div>
+                <h2>Krunch Combo</h2>
+                <div class="price">
+                    <h5>Rs 520</h5>
+                </div>
+                <img src="./media/deal2.png" alt="">
+            </div>
+            <div class="box">
+                <div class="reds">
+                    <div class="red">
+                    </div>
+                    <div class="red">
+                    </div>
+                    <div class="red">
+                    </div>
+                </div>
+                <h2>Hot Wings Bucket</h2>
+                <div class="price">
+                    <h5>Rs 610</h5>
+                </div>
+                <img src="./media/deal3.png" alt="">
+            </div>
+            <div class="box">
+                <div class="reds">
+                    <div class="red">
+                    </div>
+                    <div class="red">
+                    </div>
+                    <div class="red">
+                    </div>
+                </div>
+                <h2>Mighty Zinger</h2>
+                <div class="price">
+                    <h5>Rs 700</h5>
+                </div>
+                <img src="./media/deal4.png" alt="">
+            </div>
+        </div>
+
+        <h2 class="item">Top Deals</h2>
+        <div class="deals">
+            <div class="deal">
+                <div class="tops">
+                    <div class="top">
+
+                    </div>
+                    <div class="top">
+
+                    </div>
+                    <div class="top">
+
+                    </div>
+                </div>
+                <img src="./media/top1.png" alt="">
+                <div class="card_description">
+                    <h4>Twister Combo</h4>
+                    <p>Twister + 1 Regular fries Regular drink</p>
+                    <h3>Rs 670</h3>
+                </div>
+            </div>
+            <div class="deal">
+                <div class="tops">
+                    <div class="top">
+
+                    </div>
+                    <div class="top">
+
+                    </div>
+                    <div class="top">
+
+                    </div>
+                </div>
+                <img src="./media/top2.png" alt="">
+                <div class="card_description">
+                    <h4>Zinger Stacker Combo</h4>
+                    <p>1 Zinger Stacker + Regular fries + 1 <br>Regular drink </p>
+                    <h3>Rs 850</h3>
+                </div>
+            </div>
+            <div class="deal">
+                <div class="tops">
+                    <div class="top">
+
+                    </div>
+                    <div class="top">
+
+                    </div>
+                    <div class="top">
+
+                    </div>
+                </div>
+                <img src="./media/top3.png" alt="">
+                <div class="card_description">
+                    <h4>crispy Duo Box</h4>
+                    <p>Trun up the fun with 5 pcs Hot & Crispy Chicken + 1 Large fries + Regular drink</p>
+                    <h3>Rs 1250</h3>
+                </div>
+            </div>
+            <div class="deal">
+                <div class="tops">
+                    <div class="top">
+
+                    </div>
+                    <div class="top">
+
+                    </div>
+                    <div class="top">
+
+                    </div>
+                </div>
+                <img src="./media/top4.png" alt="">
+                <div class="card_description">
+                    <h4>Family Festival 3</h4>
+                    <p>An ultimate meal for the fam. it include 4 <br>Zinger burger + 4 pieces & crispy</p>
+                    <h3>Rs 2450</h3>
+                </div>
+            </div>
+        </div>
+
+</body>
+<script src="./js/script.js"></script>
+
+</html>

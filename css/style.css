@@ -1,0 +1,354 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: Raleway,sans-serif!important;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 120px;
+    background-color: #fff;
+}
+ .nav_bar{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+ }
+ .menu{
+  width: 40px; 
+  cursor: pointer;
+ }
+ .menu img{
+   width: 100%;
+ }
+ .login{
+   all: unset;
+   padding: 10px 20px;
+   border-radius: 5px;
+   background-color: whitesmoke;
+    border: 2px solid red;
+    cursor: pointer;
+ }
+ span{
+   background-color: whitesmoke;
+    padding: 10px 20px;
+    border-radius: 5px;
+ }
+ .log input{
+      /* height: 40px;
+      width: 70px; */
+      padding: 8px 15px;
+       border: 2px solid black;
+    background-color: rgb(235, 34, 34);
+   margin-top: 10px;
+    border-radius: 5px;
+    color: white;
+    font-size: 18px;
+    border: none;
+    margin-left: 20px;
+    cursor: pointer;
+    
+ }
+ .kfc{
+   width: 100%;
+   position: relative;
+   display: flex;
+   height: 600px;
+ }
+ .kfc img{
+   width: 100%;
+   object-fit: cover;
+ }
+ #slide{
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+ }
+ .slide{
+   animation-name: ayesha;
+   transform-origin: right;
+ }
+ .slide1{
+   animation-name: ayesha;
+   transform-origin: left;
+ }
+ @keyframes ayesha{
+   from{
+      transform: scaleX(0);
+   }
+   to{
+      transform: scaleX(1);
+   }
+ }
+ .next{
+   width: 25px;
+   position: absolute;
+   right: 20px;
+   top: 50%;
+   cursor: pointer;
+ }
+ .next img{
+   width: 100%;
+ }
+ .prev{
+   width: 25px;
+   position: absolute;
+   left: 20px;
+   top: 50%;
+   cursor: pointer;
+ }
+ .prev img{
+   width: 100%;
+ }
+.order{
+ align-items: center;   
+ margin-left: 450px;
+ margin-top: 20px;
+ width: 700px;
+ height: 35px;
+ background-color: rgb(253, 26, 26);
+ border: none;
+ border-radius: 5px;
+ color: white;
+ 
+
+}
+.item{
+  position: relative;
+  margin-top: 40px;
+  margin-left: 150px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
+}
+.cards{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  padding-top: 100px;
+  transition-property: all;
+  transition-duration: 1s;
+  transition-delay: 3s; 
+  transition-timing-function:ease-in-out;
+}
+.card{
+  width: 220px;
+  height: 200px;
+  background-color: white;
+  border-radius: 50%;
+  border-bottom-right-radius: 10px;
+ display: flex;
+ justify-content: center;
+ 
+   /* align-items: center; */
+}
+.card:hover{
+  /* transform: translateY(30px); */
+  transform: translateX(30px);
+}
+
+.card img{
+  width:90%;
+}
+.container{
+  background-color: rgb(221, 225, 225);
+  padding-bottom: 100px;
+}
+/* .box{
+  width: 200px;
+  height: 220px;
+  background-color: brown;
+   transform: ;scale(0-1-2) zoom in and out,rotate(0deg-360deg),translateX(200px),translateY(200px) 
+  transition-property: all;
+  transition-duration: 3s;
+  transition-timing-function:ease-in-out;/* cubic-bezier(0.55, 0.055, 0.675, 0.19),ease,steps(5)
+   transition-delay: 3s; 
+}
+.box:hover{
+transform: translateX(200px);
+background-color: saddlebrown;
+} */
+.boxes{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  padding-top: 30px;
+}
+.box{
+  width: 20%;
+  height: auto;
+  background-color: #fff;
+}
+.box img{
+  width: 95%;
+}
+ .red{
+  
+ width: 15px;
+  height: 22px;
+  background-color: rgb(236, 6, 6);
+} 
+.reds{
+  display: flex;
+  justify-content: center;
+  gap:7px;
+}
+.price{
+  position: absolute;
+  background-color: rgb(236, 6, 6) ;
+  width: 70px;
+  height: 30px;
+  margin-left: 230px;
+  border-bottom-left-radius:30px;
+  border-top-left-radius: 30px;
+  color: #fff;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.deals{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  padding-top: 30px;
+}
+.deal{
+  width: 20%;
+  height: auto;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 10px 5px 5px 5px rgb(229, 225, 225);
+}
+.deal img{
+  width: 90%;
+transition-duration: 1s;
+transition-property: transform;
+transition-timing-function: ease-in-out;
+}
+.top{
+  width: 15px;
+  height: 22px;
+  background-color: rgb(212, 7, 7);
+ 
+}
+.tops{
+  display: flex;
+  justify-content: center;
+  gap:7px;
+}
+.deal:hover img{
+  transform: scale(1.1);
+}
+.card_description{
+  padding: 20px 10px;
+  text-align: justify;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+}
+.form{
+  display: flex;
+  justify-content: space-evenly ;
+  align-items: center;
+  background-color:white;
+}
+.image img{
+  width: 80%;
+  height: 40%;
+}
+/* -------------kfc side bar css---------------------------------------------------- */
+.sidebar{
+  width: 100%;
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  display: none;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+.sideShow{
+  display: flex;
+}
+.kfc_menu{
+  height: 100vh;
+  width:20%;
+  background-color: white;
+}
+.location ul{
+  list-style: none;
+}
+.location ul li{
+  line-height: 50px;
+  
+}
+.location ul li a{
+  color: black;
+  text-decoration: none;
+  font-size: 18px;
+  padding-left: 40px;
+  font-weight: 500;
+  display: block;
+}
+.location img{
+  width: 30px;
+  height: 25px;
+  padding-right: 5px;
+  
+}
+.fade{
+  width: 80%;
+  height: 100vh;
+  background-color:#000;
+  opacity: 0.5;
+}
+
+.mode{
+  margin-left: 190px;
+  margin-bottom: 20px;
+}
+label{
+  width: 90px;
+  height:40px;
+  position: relative;
+  display:block;
+  background: #ebebeb;
+  border-radius: 200px;
+  cursor: pointer;
+}
+label:after{
+  content: "";
+  width: 40px;
+  height: 30px;
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  
+  background: linear-gradient(180deg,#f02b2b,#d71b1b);
+  border-radius: 100px;
+  /* box-shadow: 0px 2px 4px rgba(0,0,0,2); */
+}
+input{
+  width: 0;
+  height: 0;
+  visibility: hidden;
+
+}
+input:checked + label{
+  background: #242424;
+
+}
+input:checked + label:after{
+  left: 80px;
+  transform: translateX(-100%);
+  background: linear-gradient(180deg,#0c0c0c,#3a3a3a);
+  border-radius: 100px;
+  transition: 0.3s;
+}
